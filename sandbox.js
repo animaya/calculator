@@ -1,5 +1,4 @@
 
-
 function add(a, b) {
     return a + b;
 }
@@ -21,3 +20,13 @@ function operate(operand1, operand2, operator) {
 }
 
 console.log(operate(3,2,divide));
+
+const values = "22+100";
+const operandOne = 0;
+const operanTwo = 0;
+for (let val of values) {
+    if (val != '+') {
+        operandOne
+    }
+    console.log(val);
+}
